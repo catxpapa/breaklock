@@ -104,9 +104,11 @@ table {
   text-align: center;
   margin: 0 auto 0.25rem;
   font-size: 1.25rem;
-  border: 1px solid $theme_bright;
-  padding: 0.25rem 1rem;
-  box-shadow: 0.25rem 0.25rem 0 0 $theme_bright;
+  border: 1px solid $theme_green;
+  background: $theme_green;
+  color: $theme_dark;
+  padding: 0.25rem 3rem;
+  box-shadow: 0.25rem 0.25rem 0 0 #08610e;
   border-radius: 0.4rem;
 }
 

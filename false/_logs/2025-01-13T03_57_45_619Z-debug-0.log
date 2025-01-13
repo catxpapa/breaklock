@@ -1,0 +1,19 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.0.0
+2 info using node@v22.13.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/aeros/breaklock/.npmrc
+5 silly config load:file:/Users/aeros/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm run build
+8 verbose argv "run" "build" "--cache" "false"
+9 verbose logfile logs-max:10 dir:/Users/aeros/breaklock/false/_logs/2025-01-13T03_57_45_619Z-
+10 verbose logfile /Users/aeros/breaklock/false/_logs/2025-01-13T03_57_45_619Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 verbose cwd /Users/aeros/breaklock
+14 verbose os Darwin 20.6.0
+15 verbose node v22.13.0
+16 verbose npm  v11.0.0
+17 verbose exit 0
+18 info ok

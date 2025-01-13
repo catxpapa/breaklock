@@ -53,6 +53,9 @@ $summary_transition_delay:    .5s;
 .summary-action-button {
   display: block;
   font-size: 1.5rem;
+  &.action-new_game {
+   color:$theme_green;
+  }
 }
 
 .summary-share {

@@ -43,7 +43,7 @@ class SummaryCtrl {
     this.actionButtons = []
     for (let action in config.GAME.ACTIONS) {
       let btn = dom.create('button', {
-        class: 'summary-action-button',
+        class: 'summary-action-button action-' + action.toLowerCase(),
         rel: config.GAME.ACTIONS[action]
       }, [
         dom.icon(action.toLowerCase()),

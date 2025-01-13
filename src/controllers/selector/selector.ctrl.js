@@ -19,9 +19,22 @@ class SelectorCtrl {
    */
   constructor (choiceList, defaultChoice) {
     this.selectionIndex = 0
+    this.setupScene()
+
+    this.updateScene()
     this.setupTemplate()
     this.setChoices(choiceList)
   }
+
+/**
+ * CATxPAPA
+ * Add scene images
+ * 
+ */
+setupScene(){
+  this.scene = dom.create('div','scene-image')
+  return this.scene
+}
 
   /**
    * Build template of the controller
@@ -33,6 +46,7 @@ class SelectorCtrl {
     this.labelEl  = dom.create('span', 'selectbox-item selector-label')
 
     this.el = dom.create('div', 'selector selectbox', [
+      this.scene,
       this.btnLeft,
       this.btnRight,
       this.labelEl
@@ -49,7 +63,17 @@ class SelectorCtrl {
     this.btnRight.addEventListener('click', this.next.bind(this))
     this.btnRight.addEventListener('touchstart', this.next.bind(this))
   }
+/**
+ * CATxPAPA
+ * changeScene
+ */
+updateScene(choice){
+  // const choice = choiceList[sceneId]
+    if (!choice) return;
 
+    this.scene.style.backgroundImage = `url(${choice.dataImage})`;
+  console.log('sceneID:',this.scene,choice)
+}
   /**
    * Set up the different available choices
    * Choice list format:
@@ -67,8 +91,11 @@ class SelectorCtrl {
       this.selectionIndex = this.choices[i].default ? i : this.selectionIndex
     }
     this.selectionIndex = this.selectionIndex || 0
+    // this.updateScene(this.selectionIndex)
     this.updateLabel()
   }
+
+
 
   /**
    * Update the counter DOM to the value
@@ -81,6 +108,8 @@ class SelectorCtrl {
     this.labelEl.textContent = choice.label
     if (this.selectCallback)
       this.selectCallback(this.choices[this.selectionIndex])
+    this.updateScene(choice)
+ 
     return this.selectionIndex
   }
 

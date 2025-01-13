@@ -46,7 +46,8 @@ const build = async () => {
   const baseDict = l10n.find((x)=>x.code==='en').data;
   await Promise.all(l10n.map(async (x)=>{
     await mkdir(join(buildFolder, x.code));
-    const dict = { ...baseDict, ...x.data };
+    const dict = { ...baseDict, ...x.data ,
+    dynamicImage:`./${x.code}/assets/0.png`,bkImage:`./${x.code}/assets/bk.png` };
     await Promise.all([
       applyI18n(
         join(buildFolder, 'index.html'),
@@ -68,12 +69,32 @@ const build = async () => {
         join(buildFolder, `${x.code}/app.css`),
       )
     ]);
+
+    await Promise.all([
+      cp(
+      join(rootFolder, 'assets', '0.png'),
+      join(buildFolder, x.code, 'assets','0.png')
+      ),
+     cp(
+      join(rootFolder, 'assets', '1.png'),
+      join(buildFolder, x.code, 'assets','1.png')
+      ),
+      cp(
+      join(rootFolder, 'assets', '2.png'),
+      join(buildFolder, x.code, 'assets','2.png')
+      ),
+      cp(
+      join(rootFolder, 'assets', 'bk.png'),
+      join(buildFolder, x.code, 'assets','bk.png')
+      )
+      ]
+  )
   }));
   await Promise.all([
-    handleRelativeCopy(join(buildFolder, 'en', 'app.css'), join(buildFolder, 'app.css')),
-    handleRelativeCopy(join(buildFolder, 'en', 'manifest.json'), join(buildFolder, 'manifest.json')),
-    handleRelativeCopy(join(buildFolder, 'en', 'index.html'), join(buildFolder, 'index.html')),
-    handleRelativeCopy(join(buildFolder, 'en', 'app.js'), join(buildFolder, 'app.js')),
+    handleRelativeCopy(join(buildFolder, 'cp', 'app.css'), join(buildFolder, 'app.css')),
+    handleRelativeCopy(join(buildFolder, 'cp', 'manifest.json'), join(buildFolder, 'manifest.json')),
+    handleRelativeCopy(join(buildFolder, 'cp', 'index.html'), join(buildFolder, 'index.html')),
+    handleRelativeCopy(join(buildFolder, 'cp', 'app.js'), join(buildFolder, 'app.js')),
   ]);
   console.log('Finished successfully.');
 };

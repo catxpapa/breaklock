@@ -28,6 +28,7 @@ body {
   background: $theme_dark;
   color: $theme_bright;
   overscroll-behavior-y: none;
+  background-image: url(../assets/bk.png);
 }
 
 a {
@@ -113,7 +114,7 @@ table {
   display: inline-block;
   padding: 0 0.5rem;
   color: $theme_dark;
-  background-color: $theme_bright;
+  background-color: $theme_green;
   &:after {
     content: '_';
     animation: blink 1.2s infinite;
@@ -138,6 +139,8 @@ table {
 .view {
   display: flex;
   flex-direction: column;
+  background-color: RGBA(0, 0, 0, .8);
+  backdrop-filter: blur(2px);
   justify-content: space-between;
   position: absolute;
   top: 0;

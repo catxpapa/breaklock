@@ -37,6 +37,7 @@
 
     <meta name="apple-mobile-web-app-title" content="BreakLock" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
     <meta name="HandheldFriendly" content="True" />
@@ -68,9 +69,9 @@
       })();
 
       if (isRoot) {
-        const supported = { fa: true, en: true, zh: true, ru: true, fr: true, pt_br:true };
+        const supported = { fa: true, en: true, zh: true, cp: true, ru: true, fr: true, pt_br:true };
         for (const l of navigator.languages) {
-          if (l === 'en') break;
+          if (l === 'cp') break;
           if (supported[l]) {
             window.location = l;
           }

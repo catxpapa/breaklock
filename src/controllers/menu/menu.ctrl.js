@@ -62,24 +62,27 @@ class MenuCtrl {
         value: config.GAME.TYPE.PRACTICE,
         label: '#@mode_practice',
         description: '#@mode_practice_description',
+        dataImage: './assets/0.png',
         default: true
       },
       {
         value: config.GAME.TYPE.CHALLENGE,
         label: '#@mode_challenge',
-        description: '#@mode_challenge_description'
+        description: '#@mode_challenge_description',
+        dataImage: './assets/1.png',
       },
       {
         value: config.GAME.TYPE.COUNTDOWN,
         label: '#@mode_countdown',
-        description: '#@mode_countdown_description'
+        description: '#@mode_countdown_description',
+        dataImage: './assets/2.png',
       }
     ]);
     const lang = (()=>{
       const x = window.location.pathname.split('/');
       while (true) {
         const y = x.pop();
-        if (y === undefined) return 'EN';
+        if (y === undefined) return 'CP';
         if (y.length === 2) return y.toUpperCase();
       }
     })();
@@ -100,6 +103,7 @@ class MenuCtrl {
       ]),
       dom.create('div', 'view-bloc menu-layout-form', [
         this.difficultyOption.el,
+        
         this.typeSelector.el,
         this.typeHelpEl,
         this.btnStarlEl

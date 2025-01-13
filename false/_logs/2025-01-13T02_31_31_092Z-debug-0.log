@@ -1,0 +1,19 @@
+0 verbose cli /usr/local/share/nvm/versions/node/v20.18.1/bin/node /home/codespace/nvm/current/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.18.1
+3 silly config load:file:/usr/local/share/nvm/versions/node/v20.18.1/lib/node_modules/npm/npmrc
+4 silly config load:file:/workspaces/breaklock/.npmrc
+5 silly config load:file:/home/codespace/.npmrc
+6 silly config load:file:/usr/local/share/nvm/versions/node/v20.18.1/etc/npmrc
+7 verbose title npm run build
+8 verbose argv "run" "build" "--cache" "false"
+9 verbose logfile logs-max:10 dir:/workspaces/breaklock/false/_logs/2025-01-13T02_31_31_092Z-
+10 verbose logfile /workspaces/breaklock/false/_logs/2025-01-13T02_31_31_092Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 verbose cwd /workspaces/breaklock
+14 verbose os Linux 6.5.0-1025-azure
+15 verbose node v20.18.1
+16 verbose npm  v10.8.2
+17 verbose exit 0
+18 info ok

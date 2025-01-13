@@ -58,7 +58,7 @@ $summary_transition_delay:    .5s;
 .summary-share {
   font-size: 2rem;
   line-height: 0;
-
+display:none;
   &-link {
     display: inline-block;
     margin-right: .375em;

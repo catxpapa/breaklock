@@ -9,4 +9,4 @@ author:
 application:
   subdomain: breaklock
   routes:
-    - /=file:///lzcapp/pkg/content/public
+    - /=file:///lzcapp/pkg/content/

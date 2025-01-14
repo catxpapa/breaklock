@@ -1,62 +1,62 @@
-airport_charlist: abcdefghijklmnopqrstuvwxyz0123456789 _*%!?#/\\|@
-attribution: par <a href="https://twitter.com/mxwllt"><svg class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-maxwellito"></use></svg></a> / sur <a href="https://github.com/maxwellito/breaklock"><svg class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-github"></use></svg></a>
-button_abort: RETOUR
-button_easy: Facile
-button_hard: Difficile
-button_instructions: INSTRUCTIONS
-button_medium: Moyen
-button_start: START_
-connect_first: Connecte
-connect_second: points
-description: Un mélange entre Mastermind et l’écran de verrouillage d’Android. Un jeu que vous allez adorer détester.
-description_black: un point est dans la combinaison mais pas dans le bon ordre
-description_difficulty: Le paramètre de difficulté fait varier le nombre de points dans la combinaison à trouver. Facile est en 4 points, moyen est en 5 points et difficile est en 6 points.
-description_game: Reliez les points pour trouver la combinaison secrète. Après chaque essai le jeu vous informera du nombre de points correctement placés.
-description_white: un point est dans la combinaison et est dans le bon ordre
-feedback_success_first: Combinaison trouvée en
-feedback_success_second: essais.
-feedback_fail: Désolé, ça n'a pas marché.
-label_success: Trouvé !
-label_fail: Echec !
-label_goodluck: Bonne chance !_
-lang_code: fr
-mode_challenge: Challenge
-mode_challenge_description: Le mode challenge vous donne droit à 10 essais (et pas un de plus) pour gagner
-mode_countdown: Minuteur
-mode_countdown_description: Trouve la combinaison secrète en moins d’une minute, mais le nombre d’essais est illimité
-mode_practice: Entraînement
-mode_practice_description: Pas de pression, prenez le temps de découvrir le jeu et d’affiner votre technique
-name_app: BreakLock
-quote_success00: Ce n’était que de la chance, c’est tout. Arrêtez de rêver.
-quote_success01: Vous avez êtes chanceux.
-quote_success02: Aucun mérite. Absolument aucun.
-quote_success03: C’était offert sur un plateau d’argent.
-quote_success04: Absolument aucune synapse n'a été utilisé durant cette partie.
-quote_success05: N’osez même pas tweeter votre score.
-quote_success06: Damn son !! C’était limite.
-quote_success07: Semble légitime, avec un peu de chance.
-quote_success08: Pas mal !
-quote_success09: Dur ! Mais vous l’avez réussi !
-quote_success10: Essayer des combinaisons aléatoire ne constitue pas une bonne stratégie...
-quote_success11: C’était loooooonnnnnnng...
-quote_success12: Au moins vous avez réussi.
-quote_success13: Je parie que vous détestez ce jeu dès à présent.
-quote_success14: J’espère que vous n'avez pas triché.
-quote_success15: Votre dévouement est impressionnant.
-quote_success16: Logique absente.
-quote_success17: Sans commentaires.
-quote_fail00: Y'a du travail...
-quote_fail01: Vous avez compris le jeu ? Ne le prenez pas personnellement, mais vous me faites douter.
-quote_fail02: Vous y arriverez un jour...
-quote_fail03: C’est pas marrant pour vous, mais ça l’est énormément pour moi ;)
-quote_fail04: Pas de stress, vous allez y arriver.
-quote_fail05: C’est laborieux tout ça.
-quote_fail06: Il faudrait penser à utiliser ses neurones ! C’est pas Candy Crush ici !
-quote_fail07: Belle démonstration d’une partie de Kamoulox.
-special_css: <style></style>
-summary_see: Sélectionnez une option
-summary_action_solution: SOLUTION
-summary_action_new_game: NOUVELLE_PARTIE
-summary_action_back_home: RETOUR_ACCUEIL
-tweet_feedback: Tweetez moi votre retour d’expérience à
-share: Partager
+airport_charlist: "abcdefghijklmnopqrstuvwxyz0123456789 _*%!?#/\\|@"
+attribution: "Original: mxwllt <a href=\"https://twitter.com/mxwllt\"><svg class=\"icon\"><use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon-maxwellito\"></use></svg></a> / Modifié par: CATxPAPA <a href=\"https://github.com/catxpapa/breaklock\"><svg class=\"icon\"><use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon-github\"></use></svg></a>"
+button_abort: "Abandonner"
+button_easy: "Débutant (4 points)"
+button_hard: "Expert (6 points)"
+button_instructions: "Instructions"
+button_medium: "Intermédiaire (5 points)"
+button_start: "Commencer"
+connect_first: "Connecter"
+connect_second: "points"
+description: "Un jeu qui vous fera l'aimer et le détester en même temps."
+description_black: "Position correcte, ordre incorrect"
+description_difficulty: "Le jeu propose trois scénarios différents, chacun avec une jouabilité différente."
+description_game: "Ce jeu imite l'interface de déverrouillage d'un téléphone Android. Vous devez connecter les points pour trouver le schéma de déverrouillage. Cependant, à chaque tentative, le jeu vous indique combien de points sont corrects."
+description_white: "Position et ordre corrects"
+feedback_success_first: "Déverrouillage réussi !"
+feedback_success_second: "tentatives."
+feedback_fail: "Désolé, vous avez échoué."
+label_success: "Succès !"
+label_fail: "Échec !"
+label_goodluck: "Bonne chance !"
+lang_code: "fr"
+mode_challenge: "\"Maison de l'espion\" (Mode Challenge)"
+mode_challenge_description: "Vous êtes un espion et votre mission est de vous faire passer pour un père et envoyer votre fille adoptive dans une école noble pour approcher les hauts fonctionnaires ennemis. Cependant, la fille échoue, et vous devez pirater le système de l'école pour modifier les notes. Vous n'avez que dix tentatives avant que le système ne se verrouille ; sinon, elle sera expulsée."
+mode_countdown: "\"La journée du gros patron\" (Mode Chronométré)"
+mode_countdown_description: "En tant qu'assassin de haut niveau à la retraite, vous êtes maintenant simplement un gros patron d'épicerie. Votre acolyte, Huang Mao, a été kidnappé. Vous devez pirater le téléphone de l'ennemi pour le sauver. Cependant, vous n'avez qu'une minute ; sinon, il explosera en un nuage de fumée rouge."
+mode_practice: "\"Ton enfant poussé\" (Mode Pratique)"
+mode_practice_description: "Votre idole préférée a été assassinée, et vous avez juré de venger sa mort. Par hasard, vous obtenez un téléphone de rechange qu'elle a laissé derrière elle. Il pourrait contenir des indices, mais vous devez d'abord le déverrouiller pour trouver le coupable. Heureusement, vous avez un temps et des tentatives illimités."
+name_app: "Maître du déverrouillage"
+quote_success00: "C'était juste de la chance, tu n'iras pas aussi vite la prochaine fois."
+quote_success01: "Tu as de la chance, va acheter un billet de loterie et offre-moi-en un."
+quote_success02: "Impossible, absolument impossible."
+quote_success03: "Un melon gratuit n'est pas sucré, essaie un plus difficile."
+quote_success04: "Je soupçonne que tu as volé le cerveau de Bega Punk."
+quote_success05: "Ça ne compte pas, essaie encore."
+quote_success06: "Quoi ? Ça marche ?"
+quote_success07: "Plutôt bien, un peu de chance."
+quote_success08: "Tu joues bien ! Arrête maintenant."
+quote_success09: "Félicitations ! Tu viens de perdre encore un peu de ta vie !"
+quote_success10: "Gribouiller ce n'est pas de la stratégie, c'est de la chance."
+quote_success11: "Trop lent ! Est-ce que tu essaies même ?"
+quote_success12: "Bon, au moins tu as réussi une fois !"
+quote_success13: "Tu dois vraiment détester ce jeu maintenant."
+quote_success14: "C'est de la triche, recommence."
+quote_success15: "Ton effort est admirable, mais il ne vaut rien."
+quote_success16: "Rien à dire, pas de logique, comment ça marche ?"
+quote_success17: "Il te faut encore 100 victoires pour prouver ta valeur."
+quote_fail00: "Ne sois pas découragé, ton cerveau va grandir, peut-être..."
+quote_fail01: "Tu sais même jouer ? Ne joue pas si tu ne sais pas."
+quote_fail02: "Un jour, tu réussiras... probablement ?"
+quote_fail03: "Ce n'est pas drôle pour toi, mais pour moi si."
+quote_fail04: "Ne stresse pas, tu ne réussiras pas la prochaine fois non plus."
+quote_fail05: "Tu veux arrêter ? Ne joue pas si tu ne veux pas."
+quote_fail06: "Même si tu échoues, au moins tu as une échec."
+quote_fail07: "Game Over ! Insère une pièce pour recommencer."
+special_css: "<style></style>"
+summary_see: "Veuillez choisir une option."
+summary_action_solution: "Revoir"
+summary_action_new_game: "Nouveau Jeu"
+summary_action_back_home: "Retour"
+tweet_feedback: "Retour"
+share: "Partager"

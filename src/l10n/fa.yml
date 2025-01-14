@@ -1,62 +1,62 @@
-airport_charlist: ابپتثجچحخدذرضسشصضطظعغفقکلمنوهی
-attribution: توسط <a href="https://twitter.com/mxwllt"><svg class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-maxwellito"></use></svg></a> / روی <a href="https://github.com/maxwellito/breaklock"><svg class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-github"></use></svg></a><br>ترجمه توسط <a href="https://hkalbasi.github.io/">حمیدرضا کلباسی</a>
-button_abort: خروج
-button_easy: آسان
-button_hard: سخت
-button_instructions: آموزش
-button_medium: متوسط
+airport_charlist: abcdefghijklmnopqrstuvwxyz0123456789 _*%!?#/\\|@
+attribution: "اصل اثر: mxwllt <a href=\"https://twitter.com/mxwllt\"><svg class=\"icon\"><use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon-maxwellito\"></use></svg></a> / ویرایش: CATxPAPA <a href=\"https://github.com/catxpapa/breaklock\"><svg class=\"icon\"><use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon-github\"></use></svg></a>"
+button_abort: رها کردن
+button_easy: تازه‌کار (۴ نقطه)
+button_hard: حرفه‌ای (۶ نقطه)
+button_instructions: کمک
+button_medium: متوسط (۵ نقطه)
 button_start: شروع_
-connect_first: ""
-connect_second: نقطه را وصل کنید
-description: ترکیبی از فکربکر و قفل الگوی اندرویدی. بازی ای که دوست دارید ازش متنفر بشید.
-description_black: یه نقطه توی الگو هست ولی جاش غلطه
-description_difficulty: تغییر سختی تعداد نقطه های الگو رو تغییر می ده. آسان ۴ نقطه داره، متوسط ۵ نقطه و سخت ۶ نقطه.
-description_game: نقطه ها رو به هم وصل کنید تا الگو رو پیدا کنید. بعد هر تلاش بازی به شما تعداد نقطه های درست رو می گه.
-description_white: یه نقطه توی الگو هست و در جای درستی قرار گرفته
-feedback_success_first: قفل در
-feedback_success_second: تلاش پیدا شد.
-feedback_fail: متاسفم. شما شکست خوردید.
-label_success: پیروزی!
+connect_first: اتصال
+connect_second: نقطه
+description: یک بازی که شما را عاشق و متنفر می‌کند و نمی‌توانید رهایش کنید.
+description_black: موقعیت درست اما ترتیب اشتباه است
+description_difficulty: بازی دارای سه حالت داستانی متفاوت است که هر کدام گیم‌پلی خاص خود را دارند.
+description_game: این بازی رابط کاربری باز کردن قفل در گوشی‌های اندروید را شبیه‌سازی می‌کند. شما باید نقاط را به هم وصل کنید تا الگوی قفل باز شود. اما هر بار تلاش می‌کنید، بازی به شما می‌گوید که چند نقطه درست است.
+description_white: موقعیت و ترتیب هر دو درست هستند
+feedback_success_first: قفل با موفقیت باز شد!
+feedback_success_second: تلاش.
+feedback_fail: متأسفیم، شما شکست خوردید.
+label_success: موفقیت!
 label_fail: شکست!
-label_goodluck: موفق باشید!_
+label_goodluck: موفق باشید!
 lang_code: fa
-mode_challenge: چالش
-mode_challenge_description: توی چالش شما ده بار می تونید برای پیدا کردن الگو تلاش کنید
-mode_countdown: شمارش معکوس
-mode_countdown_description: توی یک دقیقه زمان، بدون محدودیت تعداد تلاش، قفل رو پیدا کن
-mode_practice: تمرین
-mode_practice_description: بدون فشار، می تونی تمرین کنی و بازی رو یاد بگیری
-name_app: قفل شکن
-quote_success00: شانس خالص بود. نه هیچ چیز دیگه.
-quote_success01: خوش شانس بودی.
-quote_success02: لیاقتشو نداشتی. اصلا نداشتی.
-quote_success03: کاپ طلایی تقدیم به شما.
-quote_success04: قطعا هیچ سیناپسی در این بازی استفاده نشد.
-quote_success05: امتیازتو توییت کن.
-quote_success06: نزدیک بود.
-quote_success07: منطقی به نظر می رسه، با کمی شانس.
-quote_success08: احسنت!
-quote_success09: ولی تونستی!
-quote_success10: امتحان کردن الگو های تصادفی استراتژی خوبی نیست...
-quote_success11: خییییییییییییلی طول کشید
-quote_success12: حداقل تونستی
-quote_success13: باید تا الان از این بازی متنفر شده باشی.
-quote_success14: امیدوارم تقلب نکرده باشی
-quote_success15: اراده شما ستودنیه.
-quote_success16: منطق شما پیدا نشد.
-quote_success17: نظری ندارم
-quote_fail00: من مطمئنم که دفعه بعدی می تونی.
-quote_fail01: بازی رو فهمیدی؟ به خودت نگیر. من بد توضیح دادم.
-quote_fail02: یه روزی بالاخره می تونی.
-quote_fail03: برای تو جالب نبود، ولی برای من هست :)
-quote_fail04: استرس نگیر. بالاخره می تونی.
-quote_fail05: اگه می خوای شکست نخوری می تونی بازی نکنی :)
-quote_fail06: شکست مقدمه پیروزیست.
-quote_fail07: تلیت! یه سکه دیگه بنداز و دوباره بازی کن.
-special_css: <style>body{direction:rtl}</style>
-summary_see: لطفا یک گزینه را انتخاب کنید.
-summary_action_solution: راه حل
+mode_challenge: "خانه جاسوسی (حالت چالش)"
+mode_challenge_description: "شما یک جاسوس هستید. مأموریت شما این است که به عنوان یک پدر ظاهر شوید و دخترخوانده خود را به مدرسه اشرافی بفرستید و به این ترتیب به مقامات عالی‌رتبه دشمن نزدیک شوید. اما نمرات درسی دخترتان بسیار پایین است. شما باید وارد سیستم مدرسه شوید و نمرات را تغییر دهید. اما فقط ۱۰ تلاش دارید، در غیر این صورت او اخراج می‌شود."
+mode_countdown: "روتین صاحب مغازه (حالت شمارش معکوس)"
+mode_countdown_description: "شما یک قاتل حرفه‌ای بازنشسته هستید که حالا صاحب یک مغازه کوچک شده‌اید. شریک شما توسط افراد دشمن ربوده شده است. شما باید قفل گوشی آن‌ها را باز کنید تا او را نجات دهید. اما تنها یک دقیقه وقت دارید. اگر نتوانید قفل را باز کنید، او منفجر خواهد شد."
+mode_practice: "بازیابی از گوشی (حالت تمرین)"
+mode_practice_description: "بت شما به قتل رسیده است و شما قول داده‌اید انتقام او را بگیرید. به طور تصادفی، گوشی بک‌آپ او به دست شما افتاده است. شاید سرنخی در آن گوشی پیدا شود، اما ابتدا باید قفلش را باز کنید. خوشبختانه، شما زمان و تلاش بی‌نهایت دارید."
+name_app: قفل‌شکن حرفه‌ای
+quote_success00: "فقط شانس است، دفعه بعد اینقدر زود موفق نمی‌شوید."
+quote_success01: "خیلی خوش‌شانس هستید، یک بلیت بخت‌آزمایی بخرید و برای من هم بخرید."
+quote_success02: "غیرممکن است. مطلقاً غیرممکن."
+quote_success03: "پیش پا افتاده است، یک حالت سخت‌تر امتحان کنید."
+quote_success04: "شک دارم که مغز وگا پانک را دزدیده‌اید."
+quote_success05: "این دفعه حساب نیست، دوباره امتحان کنید."
+quote_success06: "واااااای! این هم شد؟"
+quote_success07: "نه بد است، کمی شانس کثیف!"
+quote_success08: "شما خیلی خوب بازی کردید! لطفاً دیگر بازی نکنید."
+quote_success09: "تبریک می‌گویم! شما فقط بخشی از زندگی‌تان را هدر دادید!"
+quote_success10: "نقاشی تصادفی تاکتیک نیست، شانس است."
+quote_success11: "خیلی کند بودید! آیا واقعاً تلاش کردید؟"
+quote_success12: "خوب، حداقل یک بار موفق شدید!"
+quote_success13: "شما حتماً الآن از این بازی متنفر هستید."
+quote_success14: "این تقلب است، لطفاً دوباره امتحان کنید."
+quote_success15: "تلاش شما قابل تحسین است، اما کاملاً بی‌ارزش."
+quote_success16: "هیچ حرفی نمی‌شود زد. منطقی ندارد، اما جواب داد!"
+quote_success17: "شما باید ۱۰۰ بار دیگر برنده شوید تا شایستگی خود را ثابت کنید."
+quote_fail00: "ناامید نشوید، مغز شما رشد خواهد کرد، شاید…"
+quote_fail01: "بلدید بازی کنید؟ اگر نمی‌توانید، لطفاً بازی نکنید."
+quote_fail02: "روزی موفق می‌شوید… شاید؟"
+quote_fail03: "این برای شما خنده‌دار نیست، اما برای من بله؛)"
+quote_fail04: "نگران نباشید، دفعه بعد هم موفق نخواهید شد."
+quote_fail05: "می‌خواهید ادامه دهید؟ نمی‌خواهید؟ بازی نکنید!"
+quote_fail06: "حتی اگر شکست خوردید، حداقل یک شکست به دست آوردید."
+quote_fail07: "بازی تمام شد! لطفاً دوباره امتحان کنید."
+special_css: "<style></style>"
+summary_see: لطفاً یک گزینه انتخاب کنید.
+summary_action_solution: بازبینی
 summary_action_new_game: بازی جدید
-summary_action_back_home: بازگشت به خانه
-tweet_feedback: بازخوردت رو توییت کن برای
-share: اشتراک گذاری
+summary_action_back_home: بازگشت
+tweet_feedback: بازخورد
+share: اشتراک‌گذاری

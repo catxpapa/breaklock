@@ -3,20 +3,20 @@
 # buildscript
 # - 可以为构建脚本的路径地址
 # - 如果构建命令简单，也可以直接写 sh 的命令
-buildscript: npm run build
+buildscript: sh build.sh
 
 # manifest: 指定 lpk 包的 manifest.yml 文件路径
 manifest: ./lzc-manifest.yml
 
 # contentdir: 指定打包的内容，将会打包到 lpk 中
-contentdir: ./dist
+contentdir: ./public
 
 # pkgout: lpk 包的输出路径
 pkgout: ./
 
 # icon 指定 lpk 包 icon 的路径路径，如果不指定将会警告
 # icon 仅仅允许 png 后缀的文件
-icon: ./lzc-icon.png
+icon: ./appicon.png
 
 # devshell 自定义应用的开发容器环境
 # - routers 指定应用容器的访问路由
@@ -45,15 +45,19 @@ icon: ./lzc-icon.png
 # 这种情况下，选用 alpine:latest 作为基础镜像，在 dependencies 中添加所需要的开发依赖即可
 # 如果 dependencies 和 build 同时存在，将会优先使用 dependencies
 devshell:
+  image: alpine:3.18
   routes:
-    - /=http://127.0.0.1:3000
+    - /=http://127.0.0.1:8000
   dependencies:
     - nodejs
     - npm
+    - python3
+    - py3-pip
   # setupscript 每次进入到app container后都会执行的配置脚本
   # - 可以为脚本的路径地址
   # - 如果构建命令简单，也可以直接写 sh 的命令
   # setupscript: export GOPROXY=https://goproxy.cn
   # setupscript: ./setupscript.sh
-  setupscript: |
+  setupscript: 
     export npm_config_registry=https://registry.npmmirror.com
+    export PIP_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple

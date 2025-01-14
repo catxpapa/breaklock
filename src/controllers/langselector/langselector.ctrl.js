@@ -11,10 +11,10 @@ class LangSelector {
   constructor () {
     this.setupTemplate()
     this.setChoices([
-      { value: 'cp', label: 'CATxPAPA' },
       { value: 'en', label: 'English' },
       { value: 'fa', label: 'فارسی' },
       { value: 'zh', label: '简体中文' },
+      { value: 'ja', label: '日本語' },
       { value: 'ru', label: 'Русский' },
       { value: 'fr', label: 'Français' },
       { value: 'pt_br', label: 'Português Brasileiro' },

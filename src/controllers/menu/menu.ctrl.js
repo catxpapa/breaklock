@@ -82,7 +82,7 @@ class MenuCtrl {
       const x = window.location.pathname.split('/');
       while (true) {
         const y = x.pop();
-        if (y === undefined) return 'CP';
+        if (y === undefined) return 'EN';
         if (y.length === 2) return y.toUpperCase();
       }
     })();

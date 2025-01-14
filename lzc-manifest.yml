@@ -1,7 +1,7 @@
 lzc-sdk-version: 0.1
 name: 解锁高手
 package: cloud.lazycat.app.breaklock
-version: 0.0.2
+version: 0.0.1
 description: 让你爱恨交加又欲罢不能的图案解锁游戏
 license: https://choosealicense.com/licenses/mit/
 homepage: 
@@ -9,4 +9,4 @@ author:
 application:
   subdomain: breaklock
   routes:
-    - /=file:///lzcapp/pkg/content/
+    - /=file:///lzcapp/pkg/content/public

@@ -1,62 +1,62 @@
-airport_charlist: "abcdefghijklmnopqrstuvwxyz0123456789 _*%!?#/\\|@"
-attribution: "Original: mxwllt <a href=\"https://twitter.com/mxwllt\"><svg class=\"icon\"><use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon-maxwellito\"></use></svg></a> / Modifié par: CATxPAPA <a href=\"https://github.com/catxpapa/breaklock\"><svg class=\"icon\"><use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon-github\"></use></svg></a>"
-button_abort: "Abandonner"
-button_easy: "Débutant (4 points)"
-button_hard: "Expert (6 points)"
-button_instructions: "Instructions"
-button_medium: "Intermédiaire (5 points)"
-button_start: "Commencer"
-connect_first: "Connecter"
-connect_second: "points"
-description: "Un jeu qui vous fera l'aimer et le détester en même temps."
-description_black: "Position correcte, ordre incorrect"
-description_difficulty: "Le jeu propose trois scénarios différents, chacun avec une jouabilité différente."
-description_game: "Ce jeu imite l'interface de déverrouillage d'un téléphone Android. Vous devez connecter les points pour trouver le schéma de déverrouillage. Cependant, à chaque tentative, le jeu vous indique combien de points sont corrects."
-description_white: "Position et ordre corrects"
-feedback_success_first: "Déverrouillage réussi !"
-feedback_success_second: "tentatives."
-feedback_fail: "Désolé, vous avez échoué."
-label_success: "Succès !"
-label_fail: "Échec !"
-label_goodluck: "Bonne chance !"
-lang_code: "fr"
-mode_challenge: "\"Maison de l'espion\" (Mode Challenge)"
-mode_challenge_description: "Vous êtes un espion et votre mission est de vous faire passer pour un père et envoyer votre fille adoptive dans une école noble pour approcher les hauts fonctionnaires ennemis. Cependant, la fille échoue, et vous devez pirater le système de l'école pour modifier les notes. Vous n'avez que dix tentatives avant que le système ne se verrouille ; sinon, elle sera expulsée."
-mode_countdown: "\"La journée du gros patron\" (Mode Chronométré)"
-mode_countdown_description: "En tant qu'assassin de haut niveau à la retraite, vous êtes maintenant simplement un gros patron d'épicerie. Votre acolyte, Huang Mao, a été kidnappé. Vous devez pirater le téléphone de l'ennemi pour le sauver. Cependant, vous n'avez qu'une minute ; sinon, il explosera en un nuage de fumée rouge."
-mode_practice: "\"Ton enfant poussé\" (Mode Pratique)"
-mode_practice_description: "Votre idole préférée a été assassinée, et vous avez juré de venger sa mort. Par hasard, vous obtenez un téléphone de rechange qu'elle a laissé derrière elle. Il pourrait contenir des indices, mais vous devez d'abord le déverrouiller pour trouver le coupable. Heureusement, vous avez un temps et des tentatives illimités."
-name_app: "Maître du déverrouillage"
-quote_success00: "C'était juste de la chance, tu n'iras pas aussi vite la prochaine fois."
-quote_success01: "Tu as de la chance, va acheter un billet de loterie et offre-moi-en un."
-quote_success02: "Impossible, absolument impossible."
-quote_success03: "Un melon gratuit n'est pas sucré, essaie un plus difficile."
-quote_success04: "Je soupçonne que tu as volé le cerveau de Bega Punk."
-quote_success05: "Ça ne compte pas, essaie encore."
-quote_success06: "Quoi ? Ça marche ?"
-quote_success07: "Plutôt bien, un peu de chance."
-quote_success08: "Tu joues bien ! Arrête maintenant."
-quote_success09: "Félicitations ! Tu viens de perdre encore un peu de ta vie !"
-quote_success10: "Gribouiller ce n'est pas de la stratégie, c'est de la chance."
-quote_success11: "Trop lent ! Est-ce que tu essaies même ?"
-quote_success12: "Bon, au moins tu as réussi une fois !"
-quote_success13: "Tu dois vraiment détester ce jeu maintenant."
-quote_success14: "C'est de la triche, recommence."
-quote_success15: "Ton effort est admirable, mais il ne vaut rien."
-quote_success16: "Rien à dire, pas de logique, comment ça marche ?"
-quote_success17: "Il te faut encore 100 victoires pour prouver ta valeur."
-quote_fail00: "Ne sois pas découragé, ton cerveau va grandir, peut-être..."
-quote_fail01: "Tu sais même jouer ? Ne joue pas si tu ne sais pas."
-quote_fail02: "Un jour, tu réussiras... probablement ?"
-quote_fail03: "Ce n'est pas drôle pour toi, mais pour moi si."
-quote_fail04: "Ne stresse pas, tu ne réussiras pas la prochaine fois non plus."
-quote_fail05: "Tu veux arrêter ? Ne joue pas si tu ne veux pas."
-quote_fail06: "Même si tu échoues, au moins tu as une échec."
-quote_fail07: "Game Over ! Insère une pièce pour recommencer."
-special_css: "<style></style>"
-summary_see: "Veuillez choisir une option."
-summary_action_solution: "Revoir"
-summary_action_new_game: "Nouveau Jeu"
-summary_action_back_home: "Retour"
-tweet_feedback: "Retour"
-share: "Partager"
+airport_charlist: abcdefghijklmnopqrstuvwxyz0123456789 _*%!?#/\\|@
+attribution: Original:mxwllt <a href="https://twitter.com/mxwllt"><svg class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-maxwellito"></use></svg></a> / Modification:CATxPAPA <a href="https://github.com/catxpapa/breaklock"><svg class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-github"></use></svg></a>
+button_abort: Abandonner
+button_easy: Débutant (4 points)
+button_hard: Maître (6 points)
+button_instructions: Aide
+button_medium: Moyen (5 points)
+button_start: Démarrer_
+connect_first: Connecter
+connect_second: points
+description: Un jeu que vous aimerez détester et que vous détesterez aimer.
+description_black: Position correcte, mauvais ordre
+description_difficulty: Il existe trois histoires différentes, chacune avec un gameplay unique.
+description_game: Ce jeu imite l'interface de déverrouillage des téléphones Android. Vous devez connecter les points pour trouver le motif de déverrouillage. Mais à chaque tentative, le jeu vous indiquera combien de points sont corrects.
+description_white: Position et ordre corrects
+feedback_success_first: Déverrouillage réussi !
+feedback_success_second: tentatives.
+feedback_fail: Malheureusement, vous avez échoué.
+label_success: Succès !
+label_fail: Échec !
+label_goodluck: Bonne Chance !
+lang_code: fr
+mode_challenge: La Maison de l'Espion\(Mode Défi\)
+mode_challenge_description: Vous êtes un espion, et votre mission est de vous faire passer pour le père pour envoyer votre fille adoptive dans une école noble, et ainsi approcher les hauts fonctionnaires ennemis. Cependant, les résultats scolaires de la fille sont trop médiocres, et vous devez pirater le système scolaire pour modifier ses notes. Vous n'avez que dix tentatives avant que le système ne vous verrouille, sinon, elle sera expulsée.
+mode_countdown: La Vie Quotidienne du Gros Boss\(Mode Chrono\)
+mode_countdown_description: En tant que tueur à gages de premier ordre qui a quitté la pègre, vous n'êtes plus qu'un gros patron d'un petit supermarché. Votre partenaire, Petit Jaune, a été kidnappé. Vous devez craquer le téléphone de l'ennemi pour le sauver. Mais vous n'avez qu'une minute. Si vous ne pouvez pas le craquer, il sera transformé en une bouffée de fumée rouge.
+mode_practice: Venger Votre Idole\(Mode Entraînement\)
+mode_practice_description: Votre idole préférée a été assassinée et vous avez juré de la venger. Par hasard, vous mettez la main sur un téléphone de rechange qu'elle a laissé derrière elle. Le téléphone cache probablement des indices, mais vous devez le déverrouiller pour trouver le coupable. Heureusement, vous disposez d'un temps illimité et d'un nombre illimité de tentatives.
+name_app: Maître du Déverrouillage
+quote_success00: Pure chance, vous ne serez pas aussi rapide la prochaine fois.
+quote_success01: Vous avez de la chance, allez m'acheter un billet de loterie.
+quote_success02: Pas possible, absolument impossible.
+quote_success03: Les melons gratuits ne sont pas sucrés, essayez un plus difficile.
+quote_success04: Je soupçonne que vous avez plagié le cerveau de Vegapunk.
+quote_success05: Celui-là ne compte pas, réessayez.
+quote_success06: Putain ! Comment ça a même marché ?
+quote_success07: Il semble que ce ne soit pas mal, un peu de chance idiote.
+quote_success08: Vous avez bien joué ! Veuillez ne plus jouer.
+quote_success09: Félicitations ! Vous venez de gaspiller un peu plus de vie !
+quote_success10: Des griffonnages aléatoires ne sont pas une stratégie, c'est de la chance.
+quote_success11: Trop lent ! Essayez-vous au moins ?
+quote_success12: Eh bien, au moins vous avez réussi une fois !
+quote_success13: Vous devez détester ce jeu maintenant.
+quote_success14: C'est de la triche, veuillez réessayer.
+quote_success15: Votre effort est admirable, mais finalement inutile.
+quote_success16: Sans voix, pas de logique, comment ça a même marché ?
+quote_success17: Vous devez gagner 100 fois de plus pour faire vos preuves.
+quote_fail00: Ne vous découragez pas, le cerveau se développe, probablement...
+quote_fail01: Savez-vous au moins comment jouer ? Si ce n'est pas le cas, ne jouez pas.
+quote_fail02: Un jour, vous réussirez... peut-être ?
+quote_fail03: Ce n'est pas drôle pour vous, mais ça l'est pour moi ;)
+quote_fail04: Détendez-vous, vous n'y arriverez pas plus la prochaine fois.
+quote_fail05: Envie de rejouer ? Si non, alors ne jouez pas !
+quote_fail06: Même si vous avez échoué, au moins vous avez gagné un échec.
+quote_fail07: Game Over ! Veuillez insérer une pièce pour continuer
+special_css: <style></style>
+summary_see: Veuillez sélectionner une option.
+summary_action_solution: Revoir
+summary_action_new_game: Nouvelle partie
+summary_action_back_home: Retour
+tweet_feedback: Commentaires
+share: Partager

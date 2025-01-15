@@ -3,14 +3,14 @@
   <head>
     <title>#@name_app</title>
     <meta name="description" content="#@description" />
-    <base href="/breaklock/" />
+    <!-- <base href="/breaklock/" /> -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
     <link rel="shortcut icon" href="assets/favicon.ico" />
     <meta name="theme-color" content="#000000" />
 
-    <link rel="manifest" href="#@lang_code/manifest.json" />
+    <!-- <link rel="manifest" href="#@lang_code/manifest.json" /> -->
 
     <!-- Add to home screen for Safari on iOS -->
     <link rel="apple-touch-icon" href="assets/icons/ios-180x180.png" />
@@ -59,19 +59,26 @@
 
   <body>
     <script type="text/javascript">
+    //判断当前是否是根目录
       const isRoot = (() => {
         const x = window.location.pathname.split('/');
-        while (true) {
-          const y = x.pop();
-          if (y === undefined) return true;
-          if (y.length === 2) return false;
-        }
+          // 如果当前路径是 / 或者 /breaklock/ 或者 /breaklock 则为true
+        if (x.length <= 2 && (x[1] === "" || x[1] === "breaklock")) return true
+        return false;
       })();
-
+    //如果处于根目录，根据语言跳转
       if (isRoot) {
-        const supported = { fa: true, en: true, zh: true, ja: true, ru: true, fr: true, pt_br:true };
+        const supported = {
+          fa: true,
+          en: true,
+          zh: true,
+          ja: true,
+          ru: true,
+          fr: true,
+          pt_br: true,
+        };
         for (const l of navigator.languages) {
-          if (l === 'en') break;
+          if (l === "zh") break;
           if (supported[l]) {
             window.location = l;
           }
@@ -187,7 +194,7 @@
     <script type="text/javascript">
       // Set up service worker
       if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('service-worker.js');
+        // navigator.serviceWorker.register('service-worker.js');
       }
 
       // Easter Egg to get it full black

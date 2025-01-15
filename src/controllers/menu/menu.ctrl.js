@@ -82,7 +82,7 @@ class MenuCtrl {
       const x = window.location.pathname.split('/');
       while (true) {
         const y = x.pop();
-        if (y === undefined) return 'EN';
+        if (y === undefined) return 'ZH';
         if (y.length === 2) return y.toUpperCase();
       }
     })();
@@ -95,7 +95,7 @@ class MenuCtrl {
       dom.create('div', 'view-bloc menu-layout-instructions', [
         dom.create('div', 'ui-row', [
           title,
-          langButton,
+          // langButton,
         ]),
         intro,
         langSelector.el,

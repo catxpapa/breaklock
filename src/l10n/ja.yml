@@ -1,62 +1,62 @@
 airport_charlist: abcdefghijklmnopqrstuvwxyz0123456789 _*%!?#/\\|@
-attribution: "原作: mxwllt <a href=\"https://twitter.com/mxwllt\"><svg class=\"icon\"><use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon-maxwellito\"></use></svg></a> / 編集: CATxPAPA <a href=\"https://github.com/catxpapa/breaklock\"><svg class=\"icon\"><use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon-github\"></use></svg></a>"
-button_abort: 中止する
-button_easy: 初心者 (4点)
-button_hard: 上級者 (6点)
+attribution: 原作:mxwllt <a href="https://twitter.com/mxwllt"><svg class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-maxwellito"></use></svg></a> / 修改:CATxPAPA <a href="https://github.com/catxpapa/breaklock"><svg class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-github"></use></svg></a>
+button_abort: 中止
+button_easy: 初心者\(4点\)
+button_hard: 達人\(6点\)
 button_instructions: ヘルプ
-button_medium: 中級者 (5点)
-button_start: スタート
+button_medium: 中級\(5点\)
+button_start: 開始_
 connect_first: 接続
-connect_second: 点
-description: 愛と憎しみが交錯する、やめられないゲーム。
-description_black: 位置は正しいが順序が異なる
-description_difficulty: ゲームにはそれぞれ異なるストーリーを持つ3つの難易度が用意されています。
-description_game: このゲームはAndroidのロック解除UIを模倣しています。ポイントをつなげてロック解除パターンを完成させる必要があります。ただし、試すたびに正しいポイント数を教えてくれます。
+connect_second: 個の点
+description: あなたが好きで嫌いになる、そんなゲーム。
+description_black: 位置は正しいが順序が違う
+description_difficulty: ゲームには3つの異なる物語があり、それぞれ異なるゲームプレイがあります。
+description_game: このゲームはAndroidスマホのロック画面を模倣しています。点を繋げてロック解除パターンを見つける必要があります。ただし、毎回、ゲームは正解の点がいくつあるかを教えてくれます。
 description_white: 位置も順序も正しい
-feedback_success_first: ロック解除に成功しました！
-feedback_success_second: 試行。
+feedback_success_first: 解除成功！
+feedback_success_second: 回の試行。
 feedback_fail: 残念ながら、失敗しました。
 label_success: 成功！
 label_fail: 失敗！
-label_goodluck: 頑張ってください！
+label_goodluck: グッドラック！
 lang_code: ja
-mode_challenge: "スパイの任務 (チャレンジモード)"
-mode_challenge_description: "あなたはスパイです。任務は父親のふりをして義理の娘をエリート校に通わせ、敵の高官に近づくことです。しかし、娘の成績は悲惨です。学校のシステムに侵入し、成績を改ざんする必要があります。10回の試行しかありません。失敗すると退学となります。"
-mode_countdown: "太った店主Days (カウントダウンモード)"
-mode_countdown_description: "あなたは引退した暗殺者で、現在は小さな店を経営しています。パートナーが敵に捕らわれてしまいました。相手のスマートフォンのロックを解除して救出しなければなりませんが、制限時間はたった1分。解除に失敗すれば、彼は爆破されてしまいます。"
-mode_practice: "デバイス復元 (練習モード)"
-mode_practice_description: "あなたのヒーローが殺害され、その復讐を誓いました。偶然、彼のバックアップデバイスが手に入りました。中には手がかりがあるかもしれませんが、まずはロックを解除する必要があります。幸いにも、時間と試行回数は無制限です。"
-name_app: ブレイクロック
-quote_success00: "ただの幸運です。次はそんなに簡単ではありません。"
-quote_success01: "運が良すぎます。宝くじを買って私にも分けてください。"
-quote_success02: "あり得ません。完全に不可能です。"
-quote_success03: "簡単すぎます。次はもっと難しいモードに挑戦してください。"
-quote_success04: "ベガパンクの頭脳を盗んだに違いありません。"
-quote_success05: "今回だけは認めますが、もう一度挑戦してください。"
-quote_success06: "うわあああああ！ 本当にできたんですか？"
-quote_success07: "悪くない、ちょっとした運ですね。"
-quote_success08: "お見事！ もうプレイしないでください。"
-quote_success09: "おめでとうございます！ ただし、人生の一部を無駄にしましたね！"
-quote_success10: "ランダムなタッチは戦略ではなく、運です。"
-quote_success11: "遅すぎました！ 本当に頑張りましたか？"
-quote_success12: "まあ、一回くらい成功してもいいでしょう！"
-quote_success13: "きっとこのゲームが大嫌いになったでしょう。"
-quote_success14: "チートしていますね。もう一度試してください。"
-quote_success15: "努力は称賛しますが、完全に無意味です。"
-quote_success16: "言葉が出ません。論理は通じませんが、成功しましたね！"
-quote_success17: "100回勝てば、あなたの実力を認めます。"
-quote_fail00: "諦めないでください。脳が成長するかもしれません…たぶん。"
-quote_fail01: "遊び方がわかりますか？ わからないならやめてください。"
-quote_fail02: "いつか成功する日が来るでしょう…たぶん？"
-quote_fail03: "あなたには面白くないかもしれませんが、私には面白いです;)"
-quote_fail04: "心配しないでください。次も成功しないでしょう。"
-quote_fail05: "続けますか？ 続けませんか？ やらない方がいいです！"
-quote_fail06: "失敗しても、少なくとも失敗を手に入れましたね。"
-quote_fail07: "ゲームオーバー！ もう一度試してください。"
-special_css: "<style></style>"
+mode_challenge: スパイの家\(チャレンジモード\)
+mode_challenge_description: あなたはスパイで、今回の任務は養女を貴族学校に送り込むために父親のふりをして、敵の高官に近づくことです。しかし、娘の学業成績が悪すぎるため、学校のシステムにハッキングして成績を修正する必要があります。システムがロックされる前に10回しか試行できません。さもなければ、彼女は退学になります。
+mode_countdown: 太っちょ店長Days\(タイムアタックモード\)
+mode_countdown_description: 裏社会から引退した一流の殺し屋として、あなたは今や小さなスーパーの太っちょボスに過ぎません。あなたの相棒である金髪の若者が誘拐されました。彼を救うには敵の携帯電話をクラックする必要があります。しかし、あなたには1分しか時間がありません。もしクラックできなければ、彼は赤い煙の塊になってしまうでしょう。
+mode_practice: 推しのスマホ\(練習モード\)
+mode_practice_description: あなたの好きなアイドルが殺され、あなたは彼女の仇を討つと誓いました。偶然にも、彼女が残した予備の携帯電話を手に入れます。携帯電話には手がかりが隠されている可能性が高いですが、犯人を見つけるにはまずロックを解除する必要があります。幸運なことに、あなたは無制限の時間と無制限の試行回数を持っています。
+name_app: ロック解除マスター
+quote_success00: まぐれだよ、次はそんなに早くないぞ。
+quote_success01: ラッキーだね、宝くじを買って僕にちょうだい。
+quote_success02: ありえない、絶対にありえない。
+quote_success03: ただのメロンは甘くない、もっと難しいのを試してみて。
+quote_success04: ベガパンクの脳を盗用したんじゃないかと疑うよ。
+quote_success05: 今回はノーカウント、もう一度やってみて。
+quote_success06: マジかよ！それでどうしてもうまくいくんだ？
+quote_success07: 悪くないようだね、ちょっとした幸運。
+quote_success08: よくやった！もうプレイしないで。
+quote_success09: おめでとう！また少し人生を無駄にしたね！
+quote_success10: ランダムな落書きは戦略じゃなく、運だよ。
+quote_success11: 遅すぎる！ちゃんとやってる？
+quote_success12: まあ、少なくとも1回は成功したね！
+quote_success13: もうこのゲームを嫌いになっているに違いない。
+quote_success14: それはズルだよ、もう一度やってみて。
+quote_success15: あなたの努力は称賛に値するが、結局は無意味だ。
+quote_success16: 言葉が出ない、論理がない、これでどうしてもうまくいくんだ？
+quote_success17: あなたが自分を証明するにはあと100回勝つ必要がある。
+quote_fail00: 落胆しないで、脳は成長するだろう、たぶん…
+quote_fail01: 遊び方を知っている？知らなければプレイしないで。
+quote_fail02: いつか成功するだろう…たぶん？
+quote_fail03: あなたにとっては面白くないだろうけど、私にとっては面白い;)
+quote_fail04: リラックスして、次回も成功しないだろうから。
+quote_fail05: もう遊びたい？そうでないなら、プレイしないで！
+quote_fail06: たとえ失敗しても、少なくともあなたは失敗を獲得した。
+quote_fail07: ゲームオーバー！コインを投入して再挑戦してください
+special_css: <style></style>
 summary_see: オプションを選択してください。
-summary_action_solution: 答えを見る
+summary_action_solution: 振り返る
 summary_action_new_game: 新しいゲーム
 summary_action_back_home: 戻る
 tweet_feedback: フィードバック
-share: シェアする
+share: シェア

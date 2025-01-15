@@ -19,7 +19,7 @@ feedback_fail: 很遗憾，你失败了。
 label_success: 成功！
 label_fail: 失败！
 label_goodluck: 祝好运！
-lang_code: cp
+lang_code: zh
 mode_challenge: 《间谍之家》(挑战模式)
 mode_challenge_description: 你是一名间谍，本次任务是伪装父亲的身份送养女去贵族学校，并以此接近敌方的高层官员。然而女儿学习成绩太差，你需要骇入学校系统修改成绩，你在系统锁死前只有十次尝试机会，否则她将被开除。
 mode_countdown: 《胖老板日常》(计时模式)

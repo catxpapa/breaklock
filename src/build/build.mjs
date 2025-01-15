@@ -43,7 +43,7 @@ const build = async () => {
   ]);
   console.log('Localizing...');
   const l10n = await getL10nData();
-  const baseDict = l10n.find((x)=>x.code==='en').data;
+  const baseDict = l10n.find((x)=>x.code==='zh').data;
   await Promise.all(l10n.map(async (x)=>{
     await mkdir(join(buildFolder, x.code));
     const dict = { ...baseDict, ...x.data ,
@@ -91,10 +91,10 @@ const build = async () => {
   )
   }));
   await Promise.all([
-    handleRelativeCopy(join(buildFolder, 'en', 'app.css'), join(buildFolder, 'app.css')),
-    handleRelativeCopy(join(buildFolder, 'en', 'manifest.json'), join(buildFolder, 'manifest.json')),
-    handleRelativeCopy(join(buildFolder, 'en', 'index.html'), join(buildFolder, 'index.html')),
-    handleRelativeCopy(join(buildFolder, 'en', 'app.js'), join(buildFolder, 'app.js')),
+    handleRelativeCopy(join(buildFolder, 'zh', 'app.css'), join(buildFolder, 'app.css')),
+    handleRelativeCopy(join(buildFolder, 'zh', 'manifest.json'), join(buildFolder, 'manifest.json')),
+    handleRelativeCopy(join(buildFolder, 'zh', 'index.html'), join(buildFolder, 'index.html')),
+    handleRelativeCopy(join(buildFolder, 'zh', 'app.js'), join(buildFolder, 'app.js')),
   ]);
   console.log('Finished successfully.');
 };

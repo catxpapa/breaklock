@@ -1,62 +1,62 @@
-airport_charlist: "abcdefghijklmnopqrstuvwxyz0123456789 _*%!?#/\\|@"
-attribution: "Original: mxwllt <a href=\"https://twitter.com/mxwllt\"><svg class=\"icon\"><use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon-maxwellito\"></use></svg></a> / Modified: CATxPAPA <a href=\"https://github.com/catxpapa/breaklock\"><svg class=\"icon\"><use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon-github\"></use></svg></a>"
-button_abort: "Abort"
-button_easy: "Novice (4 points)"
-button_hard: "Expert (6 points)"
-button_instructions: "Instructions"
-button_medium: "Intermediate (5 points)"
-button_start: "Start"
-connect_first: "Connect"
-connect_second: "points"
-description: "A game that will make you love and hate it at the same time."
-description_black: "Correct position, wrong order"
-description_difficulty: "The game has three different storylines, each with a different gameplay."
-description_game: "This game mimics an Android phone's unlocking interface. You need to connect the dots to find the unlock pattern. However, each attempt, the game will tell you how many dots are correct."
-description_white: "Both position and order are correct"
-feedback_success_first: "Successfully unlocked!"
-feedback_success_second: "attempts."
-feedback_fail: "Sorry, you failed."
-label_success: "Success!"
-label_fail: "Failure!"
-label_goodluck: "Good luck!"
-lang_code: "en"
-mode_challenge: "\"Spy House\" (Challenge Mode)"
-mode_challenge_description: "You are a spy, and your mission is to disguise as a father and send your adopted daughter to a noble school to get close to the enemy's senior officials. However, the daughter is failing, and you need to hack into the school's system to modify the grades. You only have ten attempts before the system locks down; otherwise, she will be expelled."
-mode_countdown: "\"Fat Boss Daily\" (Timer Mode)"
-mode_countdown_description: "As a retired top assassin, you are now just a fat store owner. Your sidekick, Huang Mao, has been kidnapped. You need to hack into the enemy's phone to save him. However, you only have one minute; otherwise, he will explode into a cloud of red smoke."
-mode_practice: "\"Your Pushed Kid\" (Practice Mode)"
-mode_practice_description: "Your favorite idol was murdered, and you swore to avenge her. By chance, you get a spare phone she left behind. It might contain clues, but you need to unlock it first to find the culprit. Fortunately, you have unlimited time and attempts."
-name_app: "Unlock Master"
-quote_success00: "Pure luck, you won't be this fast next time."
-quote_success01: "You're lucky, go buy a lottery ticket and send me one."
-quote_success02: "Impossible, absolutely impossible."
-quote_success03: "Free melon isn't sweet; try a more difficult one."
-quote_success04: "I suspect you have stolen Bega Punk's brain."
-quote_success05: "This doesn't count, try again."
-quote_success06: "What? You can do that?"
-quote_success07: "Seems good, a bit of luck."
-quote_success08: "You're doing great! Stop now."
-quote_success09: "Congratulations! You just wasted another moment of your life!"
-quote_success10: "Random drawing isn't strategy, it's luck."
-quote_success11: "Too slow! Are you even trying?"
-quote_success12: "Well, at least you succeeded once!"
-quote_success13: "You must really hate this game now."
-quote_success14: "This is cheating, please restart."
-quote_success15: "Your effort is admirable, but it's worthless."
-quote_success16: "Nothing to say, no logic, how did this work?"
-quote_success17: "You need to win 100 more times to prove yourself."
-quote_fail00: "Don't be discouraged, your brain will grow, maybe..."
-quote_fail01: "Do you even know how to play? Don't if you don't."
-quote_fail02: "Someday you'll succeed... probably?"
-quote_fail03: "This isn't funny to you, but it is to me."
-quote_fail04: "Don't be nervous, you won't succeed next time either."
-quote_fail05: "Want to quit? Don't play if you don't."
-quote_fail06: "Even if you fail, at least you got a failure."
-quote_fail07: "Game Over! Please insert a coin to try again."
-special_css: "<style></style>"
-summary_see: "Please select an option."
-summary_action_solution: "Review"
-summary_action_new_game: "New Game"
-summary_action_back_home: "Back"
-tweet_feedback: "Feedback"
-share: "Share"
+airport_charlist: abcdefghijklmnopqrstuvwxyz0123456789 _*%!?#/\\|@
+attribution: Original:mxwllt <a href="https://twitter.com/mxwllt"><svg class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-maxwellito"></use></svg></a> / Modified:CATxPAPA <a href="https://github.com/catxpapa/breaklock"><svg class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-github"></use></svg></a>
+button_abort: Abort
+button_easy: Nooob \(4 Points\)
+button_hard: Master \(6 Points\)
+button_instructions: Help
+button_medium: Medium \(5 Points\)
+button_start: Start_
+connect_first: Connect
+connect_second: points
+description: A game that you'll love to hate, and hate to love.
+description_black: Correct position, wrong order
+description_difficulty: There are three different stories, each with unique gameplay.
+description_game: This game mimics the Android phone's unlock interface. You need to connect the dots to find the unlock pattern. But with each attempt, the game will tell you how many points are correct.
+description_white: Correct position and correct order
+feedback_success_first: Unlocked successfully!
+feedback_success_second: tries.
+feedback_fail: Unfortunately, you failed.
+label_success: Success!
+label_fail: Fail!
+label_goodluck: Good Luck!
+lang_code: en
+mode_challenge: The Spy's Home \(Challenge Mode\)
+mode_challenge_description: You are a spy, and your mission is to pose as the father to send the adopted daughter to a noble school, and thus approach high-ranking enemy officials. However, the daughter's academic performance is too poor, and you need to hack into the school system to modify her grades. You only have ten attempts before the system locks you out, otherwise, she will be expelled.
+mode_countdown: Fat Boss Days\(Countdown Mode\)
+mode_countdown_description: As a top killer who has retired from the underworld, you are now just a fat boss of a small supermarket. Your partner, Little Yellow Hair, has been kidnapped. You need to crack the enemy's phone to rescue him. But you only have one minute. If you can't crack it, he will be blasted into a puff of red smoke.
+mode_practice: Avenging Your Idol\(Practice Mode\)
+mode_practice_description: Your favorite idol was murdered, and you vowed to avenge her. By chance, you get a hold of a spare phone she left behind. The phone is likely hiding clues, but you need to unlock it to find the culprit. Fortunately, you have unlimited time and unlimited attempts.
+name_app: Unlock Master
+quote_success00: Pure luck, you won't be so fast next time.
+quote_success01: You're lucky, go buy me a lottery ticket.
+quote_success02: No way, absolutely impossible.
+quote_success03: Free melons aren't sweet, try a harder one.
+quote_success04: I suspect you plagiarized Vegapunk's brain.
+quote_success05: This one doesn't count, try again.
+quote_success06: WTF! How did that even work?
+quote_success07: Seems not bad, a bit of dumb luck.
+quote_success08: You played well! Please don't play anymore.
+quote_success09: Congrats! You just wasted a bit more life!
+quote_success10: Random scribbling is not strategy, it's luck.
+quote_success11: Too slow! Are you even trying?
+quote_success12: Well, at least you succeeded once!
+quote_success13: You must hate this game by now.
+quote_success14: That's cheating, please try again.
+quote_success15: Your effort is admirable, but ultimately worthless.
+quote_success16: Speechless, no logic, how did that even work?
+quote_success17: You need to win 100 more times to prove yourself.
+quote_fail00: Don't be discouraged, brains grow, probably...
+quote_fail01: Do you even know how to play? If not, don't play.
+quote_fail02: One day you will succeed... maybe?
+quote_fail03: This isn't funny to you, but it is to me ;)
+quote_fail04: Relax, you won't succeed next time either.
+quote_fail05: Want to play anymore? If not, then don't!
+quote_fail06: Even though you failed, at least you gained a failure.
+quote_fail07: Game Over! Please insert coin to continue
+special_css: <style></style>
+summary_see: Please select an option.
+summary_action_solution: Review
+summary_action_new_game: New Game
+summary_action_back_home: Back
+tweet_feedback: Feedback
+share: Share

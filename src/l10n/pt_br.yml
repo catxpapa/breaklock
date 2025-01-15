@@ -1,62 +1,62 @@
-airport_charlist: "abcdefghijklmnopqrstuvwxyz0123456789 _*%!?#/\\|@"
-attribution: "Original: mxwllt <a href=\"https://twitter.com/mxwllt\"><svg class=\"icon\"><use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon-maxwellito\"></use></svg></a> / Modificado por: CATxPAPA <a href=\"https://github.com/catxpapa/breaklock\"><svg class=\"icon\"><use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon-github\"></use></svg></a>"
-button_abort: "Abortar"
-button_easy: "Iniciante (4 pontos)"
-button_hard: "Expert (6 pontos)"
-button_instructions: "Instruções"
-button_medium: "Intermediário (5 pontos)"
-button_start: "Começar"
-connect_first: "Conectar"
-connect_second: "pontos"
-description: "Um jogo que vai te fazer amar e odiar ao mesmo tempo."
-description_black: "Posição correta, ordem incorreta"
-description_difficulty: "O jogo tem três histórias diferentes, cada uma com uma jogabilidade diferente."
-description_game: "Este jogo imita a interface de desbloqueio de um telefone Android. Você precisa conectar os pontos para encontrar o padrão de desbloqueio. No entanto, a cada tentativa, o jogo dirá quantos pontos estão corretos."
-description_white: "Posição e ordem corretas"
-feedback_success_first: "Desbloqueio bem-sucedido!"
-feedback_success_second: "tentativas."
-feedback_fail: "Desculpe, você falhou."
-label_success: "Sucesso!"
-label_fail: "Falha!"
-label_goodluck: "Boa sorte!"
-lang_code: "pt_br"
-mode_challenge: "\"Casa do Espião\" (Modo Desafio)"
-mode_challenge_description: "Você é um espião, e sua missão é se passar por um pai e enviar sua filha adotiva para uma escola nobre para se aproximar dos altos funcionários do inimigo. No entanto, a filha está indo mal e você precisa invadir o sistema da escola para alterar as notas. Você tem apenas dez tentativas antes que o sistema trave; caso contrário, ela será expulsa."
-mode_countdown: "\"Dia do Chefão Gordo\" (Modo Cronometrado)"
-mode_countdown_description: "Como um assassino de elite aposentado, você agora é apenas um dono de loja gordo. Seu parceiro, Huang Mao, foi sequestrado. Você precisa invadir o telefone do inimigo para salvá-lo. No entanto, você só tem um minuto; caso contrário, ele explodirá em uma nuvem de fumaça vermelha."
-mode_practice: "\"Seu Filho Empurrado\" (Modo Prática)"
-mode_practice_description: "Sua ídolo favorita foi assassinada, e você jurou vingar sua morte. Por acaso, você obtém um telefone de reserva que ela deixou para trás. Pode conter pistas, mas você precisa desbloqueá-lo primeiro para encontrar o culpado. Felizmente, você tem tempo e tentativas ilimitados."
-name_app: "Mestre do Desbloqueio"
-quote_success00: "Foi pura sorte, você não será tão rápido na próxima vez."
-quote_success01: "Você tem sorte, vá comprar um bilhete de loteria e me dê um."
-quote_success02: "Impossível, absolutamente impossível."
-quote_success03: "Melão grátis não é doce, tente um mais difícil."
-quote_success04: "Suspeito que você tenha roubado o cérebro do Bega Punk."
-quote_success05: "Isso não conta, tente novamente."
-quote_success06: "O quê? Isso funciona?"
-quote_success07: "Parece bom, um pouco de sorte."
-quote_success08: "Você está indo bem! Pare agora."
-quote_success09: "Parabéns! Você acabou de desperdiçar mais um momento da sua vida!"
-quote_success10: "Desenho aleatório não é estratégia, é sorte."
-quote_success11: "Muito lento! Você está tentando?"
-quote_success12: "Bem, pelo menos você conseguiu uma vez!"
-quote_success13: "Você deve realmente odiar esse jogo agora."
-quote_success14: "Isso é trapaça, por favor reinicie."
-quote_success15: "Seu esforço é admirável, mas não vale nada."
-quote_success16: "Nada a dizer, sem lógica, como isso funcionou?"
-quote_success17: "Você precisa vencer 100 vezes mais para se provar."
-quote_fail00: "Não desanime, seu cérebro vai crescer, talvez..."
-quote_fail01: "Você sabe jogar? Não jogue se não souber."
-quote_fail02: "Um dia você vai conseguir... provavelmente?"
-quote_fail03: "Isso não é engraçado para você, mas para mim é."
-quote_fail04: "Não fique nervoso, você não vai conseguir da próxima vez também."
-quote_fail05: "Quer desistir? Não jogue se não quiser."
-quote_fail06: "Mesmo que falhe, pelo menos você tem uma falha."
-quote_fail07: "Game Over! Insira uma moeda para tentar novamente."
-special_css: "<style></style>"
-summary_see: "Por favor, selecione uma opção."
-summary_action_solution: "Rever"
-summary_action_new_game: "Novo Jogo"
-summary_action_back_home: "Voltar"
-tweet_feedback: "Feedback"
-share: "Compartilhar"
+airport_charlist: abcdefghijklmnopqrstuvwxyz0123456789 _*%!?#/\\|@
+attribution: Original:mxwllt <a href="https://twitter.com/mxwllt"><svg class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-maxwellito"></use></svg></a> / Modificado:CATxPAPA <a href="https://github.com/catxpapa/breaklock"><svg class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-github"></use></svg></a>
+button_abort: Abortar
+button_easy: Novato (4 pontos)
+button_hard: Mestre (6 pontos)
+button_instructions: Ajuda
+button_medium: Médio (5 pontos)
+button_start: Começar_
+connect_first: Conectar
+connect_second: pontos
+description: Um jogo que você vai amar odiar e odiar amar.
+description_black: Posição correta, ordem errada
+description_difficulty: Existem três histórias diferentes, cada uma com uma jogabilidade única.
+description_game: Este jogo imita a interface de desbloqueio do telefone Android. Você precisa conectar os pontos para encontrar o padrão de desbloqueio. Mas a cada tentativa, o jogo dirá quantos pontos estão corretos.
+description_white: Posição correta e ordem correta
+feedback_success_first: Desbloqueado com sucesso!
+feedback_success_second: tentativas.
+feedback_fail: Infelizmente, você falhou.
+label_success: Sucesso!
+label_fail: Falha!
+label_goodluck: Boa Sorte!
+lang_code: pt_br
+mode_challenge: A Casa do Espião\(Modo Desafio\)
+mode_challenge_description: Você é um espião e sua missão é se passar pelo pai para enviar a filha adotiva para uma escola nobre e, assim, se aproximar de altos funcionários inimigos. No entanto, o desempenho acadêmico da filha é muito ruim e você precisa invadir o sistema escolar para modificar suas notas. Você só tem dez tentativas antes que o sistema trave, caso contrário, ela será expulsa.
+mode_countdown: Dias do Chefe Gordo\(Modo Contagem Regressiva\)
+mode_countdown_description: Como um assassino de primeira linha que se aposentou do submundo, agora você é apenas um chefe gordo de um pequeno supermercado. Seu parceiro, Little Yellow Hair, foi sequestrado. Você precisa invadir o telefone do inimigo para resgatá-lo. Mas você só tem um minuto. Se você não conseguir invadi-lo, ele será explodido em uma nuvem de fumaça vermelha.
+mode_practice: Vingando Seu Ídolo\(Modo Prática\)
+mode_practice_description: Seu ídolo favorito foi assassinado e você jurou vingá-la. Por acaso, você consegue um telefone reserva que ela deixou para trás. O telefone provavelmente esconde pistas, mas você precisa desbloqueá-lo para encontrar o culpado. Felizmente, você tem tempo ilimitado e tentativas ilimitadas.
+name_app: Mestre do Desbloqueio
+quote_success00: Pura sorte, você não será tão rápido na próxima vez.
+quote_success01: Você tem sorte, vá comprar um bilhete de loteria para mim.
+quote_success02: De jeito nenhum, absolutamente impossível.
+quote_success03: Melões grátis não são doces, experimente um mais difícil.
+quote_success04: Suspeito que você plagiou o cérebro de Vegapunk.
+quote_success05: Isso não conta, tente novamente.
+quote_success06: WTF! Como é que isso funcionou?
+quote_success07: Parece não ser ruim, um pouco de sorte burra.
+quote_success08: Você jogou bem! Por favor, não jogue mais.
+quote_success09: Parabéns! Você acabou de desperdiçar mais um pouco da vida!
+quote_success10: Rabiscos aleatórios não são estratégia, é sorte.
+quote_success11: Muito lento! Você está sequer tentando?
+quote_success12: Bem, pelo menos você conseguiu uma vez!
+quote_success13: Você deve odiar este jogo agora.
+quote_success14: Isso é trapaça, por favor, tente novamente.
+quote_success15: Seu esforço é admirável, mas, em última análise, inútil.
+quote_success16: Sem palavras, sem lógica, como é que isso funcionou?
+quote_success17: Você precisa ganhar mais 100 vezes para provar seu valor.
+quote_fail00: Não desanime, o cérebro cresce, provavelmente...
+quote_fail01: Você sabe mesmo como jogar? Se não, não jogue.
+quote_fail02: Um dia você vai conseguir... talvez?
+quote_fail03: Isso não é engraçado para você, mas para mim é ;)
+quote_fail04: Relaxe, você também não vai conseguir da próxima vez.
+quote_fail05: Quer jogar mais? Se não, então não jogue!
+quote_fail06: Mesmo que você tenha falhado, pelo menos você ganhou uma falha.
+quote_fail07: Game Over! Insira uma moeda para continuar
+special_css: <style></style>
+summary_see: Por favor, selecione uma opção.
+summary_action_solution: Revisar
+summary_action_new_game: Novo Jogo
+summary_action_back_home: Voltar
+tweet_feedback: Feedback
+share: Compartilhar
